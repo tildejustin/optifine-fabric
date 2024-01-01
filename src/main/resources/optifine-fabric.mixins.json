@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.optifine.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "BlockRendererMixin",
+    "BufferBuilderMixin",
+    "DownloadSkinParser",
+    "GameRendererMixin",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

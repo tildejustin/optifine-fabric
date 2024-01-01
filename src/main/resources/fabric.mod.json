@@ -1,24 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "optifine-fabric",
   "version": "${version}",
-  "name": "",
-  "description": "",
+  "name": "Optifine Fabric",
+  "description": "Optifine, mixinified for fabric",
   "authors": [
     "tildejustin"
   ],
   "contact": {
-    "homepage": "https://modrinth.com/mod/modid",
-    "sources": "https://github.com/tildejustin/modid",
-    "issues": "https://github.com/tildejustin/modid/issues"
+    "homepage": "https://modrinth.com/mod/optifine-fabric",
+    "sources": "https://github.com/tildejustin/optifine-fabric",
+    "issues": "https://github.com/tildejustin/optifine-fabric/issues"
   },
+  "icon": "assets/optifine/icon.png",
   "license": "MIT",
   "environment": "*",
   "mixins": [
-    "modid.mixins.json"
+    "optifine-fabric.mixins.json"
   ],
   "depends": {
     "minecraft": "*",
-    "fabric-loader": ">=0.15.0"
-  }
+    "fabricloader": ">=0.15.0"
+  },
+  "accessWidener": "optifine.accesswidener"
 }
